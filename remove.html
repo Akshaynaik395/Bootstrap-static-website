@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="styleadmin.css">
+    <link rel="stylesheet" href="login.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="https://kit.fontawesome.com/5b1eeceadd.js" crossorigin="anonymous"></script>
+    <title>Alpha Computers | Home</title>
+
+
+
+
+
+
+
+<script>
+    function rem()
+	{
+		var remlist = document.getElementById("cat");
+		var r=remlist.value;
+		if(remlist='3')
+		{
+			Window.location="ramListings.html"
+		}}
+</script>
+
+
+
+
+
+
+  </head>
+
+  <body>
+
+<!--header section-->
+
+<header class="header">
+
+<!--Navigation bar-->
+
+<div class="navcont eclipse-bg text-light">
+<nav class="nav flex align-1 py-2">
+
+<div class="navlogo flex align-1">
+  <a href="index.html"><img src="images/AlphaLOGO.png"  width="40" height="50" ></a>
+  <h3 class="lato text-light logo-heading">Alpha Computers</h3>
+</div>
+
+
+
+
+<div class="user-items flex align-1">
+
+</div>
+
+</nav>
+</div>
+
+</header>
+
+<!--End of header-->
+
+<main class="main">
+
+<!--start of display and search section-->
+
+<section class="display flex align-2">
+  <img src="images/AlphaLOGO.png" alt="Girl in a jacket" width="50" height="60"> <br>
+<h1 class="lato text-white d-head">Alpha Computers</h1>
+
+<h3 class="catamaran text-white mt-3 d-body">Best gadgets, best value, excellent service</h3>
+
+</section>
+
+<br>
+<!-- Main div code -->
+
+	<!-- Main div ending here... -->
+
+    <h1 style="text-align: center;">Remove Item</h1><br>
+
+<div style="padding-left: 50pt; padding-right: 50pt;">
+    <ul class="list-group">
+        <li class="list-group-item"><div class="form-group" > <label for="form_need">Select Categories</label> <select id="cat" name="need" class="form-control" required="required" data-error="Please specify your need.">
+            <option value="" >--Select Your Issue--</option>
+            <option value="1">Processors</option>
+            <option value="2">GPUs</option>
+            <option value="3">RAMs</option>
+            <option>Motherboard</option>
+            <option>Storage</option>
+            <option>Cabinates</option>
+            <option>Monitors</option>
+            <option>Keyboard</option>
+            <option>Mouse</option>
+            <option>Printers</option>
+        </select> </div> <div class="d-flex justify-content-center"> <button id="btn" type="button" class="btn btn-primary" onclick="rem()">Next</button></div> </li>
+
+
+
+
+      </ul>
+<br><br><br>
+
+    </div>
+
+
+
+
+
+
+
+
+
+</main>
+</body>
+</html>
